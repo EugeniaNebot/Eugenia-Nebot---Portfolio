@@ -5,11 +5,10 @@ import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
-    { linkText: 'Revalidation', href: '/revalidation' },
-    { linkText: 'Image CDN', href: '/image-cdn' },
-    { linkText: 'Edge Function', href: '/edge' },
-    { linkText: 'Blobs', href: '/blobs' },
-    { linkText: 'Classics', href: '/classics' }
+    { linkText: 'Servicios', href: '/services' },
+    { linkText: 'Proyectos', href: '/projects' },
+    { linkText: 'Sobre Mí', href: '/about' },
+    { linkText: 'Contacto', href: '/contact' }
 ];
 
 export function Header() {
@@ -30,7 +29,7 @@ export function Header() {
                 </ul>
             )}
             <Link
-                href="https://github.com/netlify-templates/next-platform-starter"
+                href="https://github.com/EugeniaNebot/Eugenia-Nebot---Portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden lg:inline-flex lg:ml-auto"
